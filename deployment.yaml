@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: portfolio
-        image: azurepocimages.azurecr.io/demo-website:latest
+        image: riship99/ntt-poc:new
         ports:
         - containerPort: 8080
         livenessProbe:
